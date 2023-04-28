@@ -1,5 +1,5 @@
 import './App.css';
-import { TodoWrapper } from './components/TodoWrapper';
+import { TodoWrapperLocalStorage } from './components/TodoWrapperLocalStorage';
 import RouteChangeTrackter from './components/RouteChangeTrackter';
 
 
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <TodoWrapper />
+      <TodoWrapperLocalStorage />
     </div>
   );
 }
